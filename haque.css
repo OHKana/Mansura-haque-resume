@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    
 }
 h1{
     font-size: 60px;
@@ -27,7 +28,8 @@ h1{
 }
 .top{
     
-        font-size: 25px;  
+        font-size: 25px; 
+       
         
 }
 .middle{
@@ -51,10 +53,16 @@ h1{
 .button{
     text-decoration: none;
     background-color: tomato;
-    border-radius: 5px;
+    border-radius: 50px;
+    
     color: white;
     font-weight: 700;
-    padding: 10px 40px;
+    padding: 10px 30px;
+}
+.button:hover{
+    position: relative;
+    bottom: 2px;
+    right: 2px;
 }
 .top{
     background-image: url(images/top-banner.png);
